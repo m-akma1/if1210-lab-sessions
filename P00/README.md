@@ -128,7 +128,7 @@ Contoh masukan dan keluaran:
 2 - 0 = 2  
 3 - 0 = 3  
 
-## [jaraktempuh.c](hello.c)
+## [jaraktempuh.c](jaraktempuh.c)
 
 Buatlah program dalam bahasa C yang menerima masukan 1 buah bilangan _real_ (float) $v$ yang merepresentasikan kecepatan sebuah mobil berjalan (km/h) dan 1 buah bilangan _integer_ $t$ yang merepresentasikan lama mobil berjalan (h). Program dapat menghasilkan jarak yang ditempuh mobil berdasarkan rumus: jarak = v * t.
 

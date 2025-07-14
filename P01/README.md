@@ -109,10 +109,11 @@ $$
 
 * Beberapa aturan kombinatorika yang berguna:
 
-$
-   \binom{n}{k} = \frac{n!}{k!(n - k)!}\\[1em]
+$$
+   \binom{n}{k} = \frac{n!}{k!(n - k)!}
+$$$$
    \binom{n}{k + 1} = \binom{n}{k} \cdot \frac{n - k}{k + 1}
-$
+$$
 
 **Catatan:**
 * Pastikan setiap output diakhiri oleh _endline_ ("`\n`")!
@@ -207,8 +208,7 @@ Faktor yang merupakan bilangan kuadrat sempurna adalah $\{1\}$ sehingga keluaran
 4
 ```
 #### Keterangan
-Untuk $N = 36$, pembaginya adalah $\{1, 2, 3, 4, 6, 9, 12, 18,
-36\}$.
+Untuk $N = 36$, pembaginya adalah $\{1, 2, 3, 4, 6, 9, 12, 18, 36\}$.
 Faktor yang merupakan bilangan kuadrat sempurna adalah $\{1, 4, 9, 36\}$ sehingga keluarannya adalah 4
 
 

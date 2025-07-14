@@ -96,11 +96,15 @@ Buatlah program menggunakan bahasa C dengan nama file `pasarkaliki.c` yang mener
 * Angka pada segitiga paskal mengikuti pola kombinatorika berikut:
 
 $$
-    \binom{0}{0}\\[1em]
-    \binom{1}{0} \quad \binom{1}{1} \\[1em]
-    \binom{2}{0} \quad \binom{2}{1} \quad \binom{2}{2}\\[1em]
-    \binom{3}{0} \quad \binom{3}{1} \quad \binom{3}{2} \quad \binom{3}{3}\\[1em]
-    \binom{4}{0} \quad \binom{4}{1} \quad \binom{4}{2} \quad \binom{4}{3} \quad \binom{4 }{4}
+    \binom{0}{0}
+$$$$
+    \binom{1}{0} \quad \binom{1}{1}
+$$$$
+    \binom{2}{0} \quad \binom{2}{1} \quad \binom{2}{2}
+$$$$
+    \binom{3}{0} \quad \binom{3}{1} \quad \binom{3}{2} \quad \binom{3}{3}
+$$$$
+    \binom{4}{0} \quad \binom{4}{1} \quad \binom{4}{2} \quad \binom{4}{3} \quad \binom{4}{4}
 $$
 
 * Beberapa aturan kombinatorika yang berguna:

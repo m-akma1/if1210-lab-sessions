@@ -8,7 +8,7 @@ Buat program dengan nama file AngkaPalindrom.c yang meminta input satu angka $N$
 
 **Palindrom** adalah angka yang sama jika dibaca dari depan maupun belakang.
 
-Note : Bilangan masukan merupakan bilangan tak-negatif, atau N > = 0
+Note : Bilangan masukan merupakan bilangan tak-negatif, atau $N \geq 0$
 
 Contoh masukan dan keluaran:
 
@@ -60,7 +60,7 @@ Contoh masukan dan keluaran:
 2^2
 ```
 #### Keterangan
-Perkalian faktor prima dari 4 adalah 2\*2 = 2^2
+Perkalian faktor prima dari 4 adalah $2 \times 2 = 2^2$
 
 ### Contoh 2
 #### Masukan
@@ -72,7 +72,7 @@ Perkalian faktor prima dari 4 adalah 2\*2 = 2^2
 2^2 * 3
 ```
 #### Keterangan
-Perkalian faktor prima dari 12 adalah 2\*2\*3 = 2^2 \* 3
+Perkalian faktor prima dari 12 adalah $2 \times 2 \times 3 = 2^2 \times 3$
 
 ### Contoh 3
 #### Masukan
@@ -84,7 +84,7 @@ Perkalian faktor prima dari 12 adalah 2\*2\*3 = 2^2 \* 3
 2^2 * 5
 ```
 #### Keterangan
-Perkalian faktor prima dari 12 adalah 2\*2\*3 = 2^2 \* 5
+Perkalian faktor prima dari 12 adalah $2 \times 2 \times 3 = 2^2 \times 5$
 
 ## [pasarkaliki.c](pasarkaliki.c)
 
@@ -97,13 +97,21 @@ Buatlah program menggunakan bahasa C dengan nama file `pasarkaliki.c` yang mener
 
 $$
     \binom{0}{0}
-$$$$
+$$
+
+$$
     \binom{1}{0} \quad \binom{1}{1}
-$$$$
+$$
+
+$$
     \binom{2}{0} \quad \binom{2}{1} \quad \binom{2}{2}
-$$$$
+$$
+
+$$
     \binom{3}{0} \quad \binom{3}{1} \quad \binom{3}{2} \quad \binom{3}{3}
-$$$$
+$$
+
+$$
     \binom{4}{0} \quad \binom{4}{1} \quad \binom{4}{2} \quad \binom{4}{3} \quad \binom{4}{4}
 $$
 
@@ -111,7 +119,9 @@ $$
 
 $$
    \binom{n}{k} = \frac{n!}{k!(n - k)!}
-$$$$
+$$
+
+$$
    \binom{n}{k + 1} = \binom{n}{k} \cdot \frac{n - k}{k + 1}
 $$
 
@@ -181,7 +191,6 @@ Contoh:
   - 4 = 2 x 2 → bilangan kuadrat sempurna.
   - 10 → bukan bilangan kuadrat sempurna karena tidak ada bilangan bulat yang hasil kuadratnya sama dengan 10.
 * Pastikan setiap output diakhiri oleh **endline ("`\n`")**!
-
 
 Contoh masukan dan keluaran:
 

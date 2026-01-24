@@ -2,6 +2,7 @@
 
 // TODO: Perbaiki prosedur agar variabel total bisa diperbarui secara langsung
 void countPrime(int a, int b, int* total) {
+
     // TODO: Implementasi prosedur untuk menghitung jumlah bilangan prima dalam rentang [A, B]
     // Saat ini, total tidak bisa diperbarui karena hanya merupakan salinan dari nilai di main()
 
@@ -19,15 +20,16 @@ void countPrime(int a, int b, int* total) {
 
 
 int main() {
+
     // TODO: Baca dua bilangan integer A dan B dalam satu baris
     // Input harus dalam format: "A B"
+    int A, B, total;
+    scanf("%d %d", &A, &B);
 
     // TODO: Perbaiki pemanggilan prosedur dengan menggunakan alamat variabel total
     // Agar perubahan nilai di dalam prosedur juga mempengaruhi nilai di main()
-
-    int A, B, total;
-    scanf("%d %d", &A, &B);
     countPrime(A, B, &total);
     printf("%d\n", total);
+
     return 0;
 }

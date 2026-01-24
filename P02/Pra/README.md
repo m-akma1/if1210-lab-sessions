@@ -14,26 +14,37 @@ Gro memanggil Nimons kesayangannya, Kebin, untuk menuliskan sebuah program yang 
 Nimon Kebin harus memastikan bahwa program bisa mengubah suhu dari satu satuan ke satuan lain dengan benar. Berikut daftar konversi suhu yang tersedia:
 
 1. Celcius (C) ke Fahrenheit (F):
+
 $$
 F = C \times \frac{9}{5} + 32
 $$
+
 2. Celcius (C) ke Kelvin (K):
+
 $$
 F = C \times \frac{9}{5} + 32
 $$
+
 3. Fahrenheit (F) ke Celcius (C):
+
 $$
 F = C \times \frac{9}{5} + 32
 $$
+
 4. Fahrenheit (F) ke Kelvin (K):
+
 $$
 F = C \times \frac{9}{5} + 32
 $$
+
 5. Kelvin (K) ke Celcius (C):
+
 $$
 F = C \times \frac{9}{5} + 32
 $$
+
 6. Kelvin (K) ke Fahrenheit (F):
+
 $$
 F = C \times \frac{9}{5} + 32
 $$

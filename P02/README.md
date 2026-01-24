@@ -8,17 +8,16 @@ Soal-soal dapat dilihat sebagai berikut.
 
 Kebin diberikan sebuah misi dari Gro, yaitu membuat program untuk mencari banyak bilangan prima di antara dua bilangan. Sebenarnya, ini adalah misi yang mudah bagi Kebin karena ia sudah memahami konsep bilangan prima setelah belajar dengan Stewart. Namun, Gro memberikan program awal yang harus dipatuhi oleh Kebin. Sayangnya, program yang diberikan memiliki struktur prosedur yang kurang tepat.
 
-**Program awal yang diberikan oleh Gro:**  
-[`MisiKebin.c`](MisiKebin.c)
+**Program awal yang diberikan oleh Gro:** [`MisiKebin.c`](MisiKebin.c)
 
 **Tugas Anda:**  
 Perbaiki dan selesaikan program yang diberikan oleh Gro agar dapat berfungsi dengan benar.
 
-**Format Masukan:**
+**Format Masukan:**  
 * Program akan menerima dua integer $A$ dan $B$ dalam satu baris, dipisahkan oleh spasi.
 * Batasan nilai: $1 \leq A \leq B \leq 10000$
 
-**Format Keluaran:**
+**Format Keluaran:**  
 Program harus mencetak satu bilangan bulat yang merupakan jumlah bilangan prima dalam rentang $[A, B]$ **diakhiri dengan newline (`\n`)**
 
 ### Contoh 1
@@ -88,7 +87,9 @@ Pesta Nimons Sukses!
 ```
 
 #### Keterangan
-Total $50 = 12 + 8 + 15 + 10 + 5$. Rata-rata $10.00 = 50 / 5$. Karena rata-rata $\geq 10$, maka cetak "Pesta Nimons Sukses!".
+$50 = 12 + 8 + 15 + 10 + 5$  
+$10.00 = 50 / 5$  
+Rata-rata $\geq 10$, maka cetak "Pesta Nimons Sukses!".
 
 ## [misibesar.c](misibesar.c)
 
@@ -174,21 +175,6 @@ Tanggal kedua lebih dulu
 #### Keterangan
 Selisih antara 15 7 2023 dan 27 7 2023 adalah 12 hari
 
-## [misibesar.c](misibesar.c)
-_Tulis ringkasan singkat di sini._
-
-### Contoh 1
-#### Masukan
-```
-```
-#### Keluaran
-```
-```
-#### Keterangan
-_Tulis keterangan di sini._
-
-<!-- Format Contoh I/O Lainnya sama seperti di atas -->
-
 ## [MisiRahasia.c](MisiRahasia.c)
 
 Gro dan pasukan Nimons sedang menjalankan misi rahasia untuk mendapatkan **kristal energi super langka** yang tersembunyi di dalam laboratorium bawah tanah milik **Ordo Gelap**. Untuk mencapai kristal ini, mereka harus memecahkan berbagai teka-teki matematika berbasis **tanggal**.
@@ -247,11 +233,14 @@ Legi
 ```
 
 #### Keterangan
-**VALIDASI 29 2 2023** → Tahun 2023 bukan kabisat, sehingga Februari hanya memiliki 28 hari → **TIDAK**  
-**HARI 17 8 1945** → 17 Agustus 1945 jatuh pada hari **Jumat**  
-**ZODIAK 12 3** → 12 Maret masuk dalam rentang **Pisces** → **Pisces**  
-**SELISIH 1 1 2000 1 1 2024** → Selisih antara 1 Januari 2000 dan 1 Januari 2024 adalah **8766 hari**  
-**PASARAN 1 1 2000** → 1 Januari 2000 jatuh pada **Legi**  
+
+| Masukan | Keterangan |
+|---|---|
+| `VALIDASI 29 2 2023` | Tahun 2023 bukan kabisat, sehingga Februari hanya memiliki 28 hari → **TIDAK** |
+| `HARI 17 8 1945` | 17 Agustus 1945 jatuh pada hari **Jumat** |
+| `ZODIAK 12 3` | 12 Maret masuk dalam rentang **Pisces** |
+| `SELISIH 1 1 2000 1 1 2024` | Selisih antara 1 Januari 2000 dan 1 Januari 2024 adalah **8766 hari** |
+| `PASARAN 1 1 2000` | 1 Januari 2000 jatuh pada **Legi** |
 
 **Notes:**
 - Hari dalam seminggu dihitung menggunakan **Zeller's Congruence**.
@@ -285,10 +274,13 @@ Implementasikan file **[`TekaTeki.c`](TekaTeki.c)** menggunakan panduan pada fil
 * Untuk fungsi `kombinasi(n, k)`, $n$ dan $k$ berupa bilangan bulat positif ($1 \leq n, k \leq 28$).
 
 **Hint:**
-Rumus untuk menghitung bilangan Catalan ke-n adalah:
-$$C_n = \frac{1}{n+1} \binom{2n}{n}$$
-Dimana $\binom{n}{k}$ adalah kombinasi binomial:
-$$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
+* Rumus untuk menghitung bilangan Catalan ke-n adalah:
+  
+  $$C_n = \frac{1}{n+1} \binom{2n}{n}$$
+
+  Dimana $\binom{n}{k}$ adalah kombinasi binomial:
+
+  $$\binom{n}{k} = \frac{n!}{k!(n-k)!}$$
 
 * Gunakan tipe data `long long` untuk proses perhitungan.
 * Setiap fungsi **harus** memiliki nama, tipe data masukan, dan keluaran yang sama dengan header.

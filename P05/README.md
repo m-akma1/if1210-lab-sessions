@@ -59,6 +59,7 @@ Selanjutnya tuliskan jam mulai pembicaraan yang paling awal yang ada dalam recor
 [2]
 7200
 [3]
+Jam tidak valid
 0
 1:0:0
 4:0:0
@@ -66,22 +67,24 @@ Selanjutnya tuliskan jam mulai pembicaraan yang paling awal yang ada dalam recor
 
 ### Keterangan
 
-| **Interaksi** | **Jenis** | **Keterangan** |
-|---------------|-----------|----------------|
-| **`3`** | `I` | Ada 3 record yang akan dibaca. |
-| `[1]` | `O` | |
-| **`1 0 0`** | `I` | |
-| **`3 0 0`** | `I` | |
-| `7200` | `O` | Pada record `[1]`: durasi jam `<1,0,0>` dan `<3,0,0>` adalah **7200 detik** |
-| `[2]` | `O` | |
-| **`4 0 0`** | `I` | |
-| **`2 0 0`** | `I` | |
-| `7200` | `O` | Pada record `[2]`: jam `<4,0,0>` adalah jam selesai, jam `<2,0,0>` adalah jam mulai. Durasi antara keduanya adalah **7200 detik**. |
-| `[3]` | `O` | |
-| **`-1 0 0`** | `I` | |
-| `Jam tidak valid` | `O` | Pada record `[3]`: pembacaan jam pertama diulang 1 kali karena tidak valid. |
-| **`1 0 0`** | `I` | |
-| `0` | `O` | Jam pertama adalah `<1,0,0>`, jam kedua adalah `<1,0,0>` sehingga durasi antara keduanya adalah **0 detik**. |
-| `1:0:0` | `O` | Setelah semua record dibaca: Jam mulai paling awal: `<1,0,0>` |
-| **`4:0:0`** | `O` | Jam selesai paling akhir: `<4,0,0>` |
+Input ditandai dengan teks **bold**.
+
+| **Interaksi** | **Keterangan** |
+|---------------|----------------|
+| **`3`** | Ada 3 record yang akan dibaca. |
+| `[1]` | |
+| **`1 0 0`** | |
+| **`3 0 0`** | |
+| `7200` | Pada record `[1]`: durasi jam `<1,0,0>` dan `<3,0,0>` adalah **7200 detik** |
+| `[2]` | |
+| **`4 0 0`** | |
+| **`2 0 0`** | |
+| `7200` | Pada record `[2]`: jam `<4,0,0>` adalah jam selesai, jam `<2,0,0>` adalah jam mulai. Durasi antara keduanya adalah **7200 detik**. |
+| `[3]` | |
+| **`-1 0 0`** | |
+| `Jam tidak valid` | Pada record `[3]`: pembacaan jam pertama diulang 1 kali karena tidak valid. |
+| **`1 0 0`** | |
+| `0` | Jam pertama adalah `<1,0,0>`, jam kedua adalah `<1,0,0>` sehingga durasi antara keduanya adalah **0 detik**. |
+| `1:0:0` | Setelah semua record dibaca: Jam mulai paling awal: `<1,0,0>` |
+| `4:0:0` | Jam selesai paling akhir: `<4,0,0>` |
 

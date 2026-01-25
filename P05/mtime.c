@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "time.h"
+#include "Pra/time.h" 
 
 int main() {
     int n; scanf("%d", &n);

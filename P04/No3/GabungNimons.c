@@ -7,7 +7,7 @@ int isMark(int a, int b) {
 }
 
 int main () {
-    init(); // Comment this when developing in local
+    // init(); // Comment this when developing in local
     const char* name_a = "file_a.txt";
     FILE* fa = fopen(name_a, "r");    
     const char* name_b = "file_b.txt";

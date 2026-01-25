@@ -5,7 +5,7 @@
 /* Tulis kode disini jika perlu */
 
 int main() {
-    init();
+    // init();
     const char* name = "input.txt";
     FILE* f = fopen(name, "r");
     

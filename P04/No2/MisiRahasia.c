@@ -32,7 +32,7 @@ int cmp3(int a1, int a2) {
 }
 
 int main() {
-    init();
+    // init();
     const char* name = "input.txt";
     FILE* f = fopen(name, "r");    
     

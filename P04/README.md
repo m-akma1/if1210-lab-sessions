@@ -30,14 +30,10 @@ Nama file: [`GabungNimons.c`](No3/GabungNimons.c)
 
 Lihat file [`file_a.txt`](No3/file_a.txt) dan [`file_b.txt`](No3/file_b.txt)
 
-### Contoh Masukan
-
-Lihat file [`input.txt`](No2/input.txt) dan [`query.txt`](No2/query.txt)
-
 ## [Nomor 4](No4/)
 
-Nama header: [`akademiminions.h`](No4/akademiminions.h)  
-Nama file: [`akademiminions.c`](No4/akademiminions.c)  
+Nama header: [`akademinimons.h`](No4/akademinimons.h)  
+Nama file: [`akademinimons.c`](No4/akademinimons.c)  
 Nama driver: [`driver.c`](No4/driver.c)
 
 > Soal tidak diarsipkan

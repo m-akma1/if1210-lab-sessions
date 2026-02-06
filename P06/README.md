@@ -48,14 +48,12 @@ B_0 B_1 B_2 ... B_n
 1 3 5 7 9
 4
 2 4 6 8
-
 ```
 
 #### Keluaran
 
 ```
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
 ```
 
 #### Keterangan
@@ -70,14 +68,12 @@ Kedua daftar digabung dan tetap terurut.
 0
 5
 1 2 3 4 5
-
 ```
 
 #### Keluaran
 
 ```
 [1, 2, 3, 4, 5]
-
 ```
 
 #### Keterangan
@@ -91,14 +87,14 @@ Minions memiliki gudang penyimpanan pisang berbentuk list statik. Setiap pisang 
 **Input:**
 1. Program akan menerima perintah secara berulang hingga pengguna memasukkan `-1` (artinya program berhenti).
 2. Ada dua jenis perintah yang dapat diberikan:
-* **`1`: Menambahkan pisang:**
-    * Setelah memasukkan angka **1**, inputkan **berat** dan **indeks** pisang.
-    * Format: **berat indeks**.
-    * Contoh: `100 0` berarti menambahkan pisang seberat 100 gram di indeks ke-0.
-* **`0`: Menghapus pisang:**
-    * Setelah memasukkan angka **0**, inputkan **indeks** pisang yang ingin dihapus.
-    * Format: **indeks**.
-    * Contoh: `1` berarti menghapus pisang di indeks ke-1.
+    * **`1`: Menambahkan pisang:**
+        * Setelah memasukkan angka **1**, inputkan **berat** dan **indeks** pisang.
+        * Format: **berat indeks**.
+        * Contoh: `100 0` berarti menambahkan pisang seberat 100 gram di indeks ke-0.
+    * **`0`: Menghapus pisang:**
+        * Setelah memasukkan angka **0**, inputkan **indeks** pisang yang ingin dihapus.
+        * Format: **indeks**.
+        * Contoh: `1` berarti menghapus pisang di indeks ke-1.
 3. Setiap perintah (baik insert maupun delete) akan langsung menampilkan isi gudang setelah aksi dilakukan.
 4. Jika aksi tidak valid (gudang penuh, gudang kosong, atau indeks tidak valid), cetak pesan: "`Aw, gabisa ngelakuin aksi itu`" (tanpa tanda kutip).
 5. Program berakhir setelah pengguna memasukkan **`-1`**.
@@ -235,3 +231,7 @@ ALGORITMA:
 ```
 10
 ```
+
+# [pencarian.c](pencarian.c)
+
+> Soal tidak diarsipkan
